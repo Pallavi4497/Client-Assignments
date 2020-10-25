@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate the response for foreign exchange rates",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-the-response-for-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5549180383,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has the API for foreign exchange rates website",
+            "match": {
+              "location": "ForeignExchRates.user_has_the_API_for_foreign_exchange_rates_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1331655518,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the API",
+            "match": {
+              "location": "ForeignExchRates.user_enters_the_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19271023,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will be able to see status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "ForeignExchRates.user_will_be_able_to_see_status_code_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "To validate response for foreign exchange rates",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-response-for-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 679216,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": user has rates API for foreign exchange rates",
+            "match": {
+              "location": "ForeignExchRates.user_has_rates_API_for_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1562969980,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": user enters the particular API",
+            "match": {
+              "location": "ForeignExchRates.user_enters_the_particular_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454018,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": user will able to see the success status of the response",
+            "match": {
+              "location": "ForeignExchRates.user_will_able_to_see_the_success_status_of_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "To validate rates for foreign exchange rates API with incorrect url",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-rates-for-foreign-exchange-rates-api-with-incorrect-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87174527,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": User possesses API for foreign exchange rates website",
+            "match": {
+              "location": "ForeignExchRates.user_possesses_API_for_foreign_exchange_rates_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 975063409,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": user enters an incorrect or incomplete API",
+            "match": {
+              "location": "ForeignExchRates.user_enters_an_incorrect_or_incomplete_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65204,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": user will now see an invaild status of the response",
+            "match": {
+              "location": "ForeignExchRates.user_will_now_see_an_invaild_status_of_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To validate date rates foreign exchange rates",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-date-rates-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24951082,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": ": user will have the API for a specific date foreign exchange rates",
+            "match": {
+              "location": "ForeignExchRates.user_will_have_the_API_for_a_specific_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 972866974,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": ": user enters that API",
+            "match": {
+              "location": "ForeignExchRates.user_enters_that_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64601,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": ": user can able to see success status of response",
+            "match": {
+              "location": "ForeignExchRates.user_can_able_to_see_success_status_of_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "To validate the rates API for foreign exchange rates",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-the-rates-api-for-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76971191,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": ": user has the API with a specific date foreign exchange rates",
+            "match": {
+              "location": "ForeignExchRates.user_has_the_API_with_a_specific_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 843194646,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": ": user enters the specific API",
+            "match": {
+              "location": "ForeignExchRates.user_enters_the_specific_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326023,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": ": user can able to see valid response",
+            "match": {
+              "location": "ForeignExchRates.user_can_able_to_see_valid_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "To validate the rates API for foreign exchange rates by selecting a future date",
+        "description": "",
+        "id": "to-test-the-foreign-exchange-rates-functionality.;to-validate-the-rates-api-for-foreign-exchange-rates-by-selecting-a-future-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17201375,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": ": user has an API for foreign exchange rates",
+            "match": {
+              "location": "ForeignExchRates.user_has_an_API_for_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 796610077,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": ": user enters API with some future date",
+            "match": {
+              "location": "ForeignExchRates.user_enters_API_with_some_future_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5277963,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": ": user can able to see response",
+            "match": {
+              "location": "ForeignExchRates.user_can_able_to_see_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@Test6"
+          }
+        ]
+      }
+    ],
+    "name": "To test the Foreign Exchange rates functionality.",
+    "description": "",
+    "id": "to-test-the-foreign-exchange-rates-functionality.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/ForeignExcRates.feature"
+  }
+]

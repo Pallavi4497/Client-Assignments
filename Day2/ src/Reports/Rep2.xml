@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="12.263977">
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate the response for foreign exchange rates" time="6.900107">
+<system-out><![CDATA[Given user has the API for foreign exchange rates website...................passed
+When user enters the API....................................................passed
+Then user will be able to see status code as 200............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate response for foreign exchange rates" time="1.564103">
+<system-out><![CDATA[Given : user has rates API for foreign exchange rates.......................passed
+When : user enters the particular API.......................................passed
+Then : user will able to see the success status of the response.............passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate rates for foreign exchange rates API with incorrect url" time="1.062303">
+<system-out><![CDATA[Given : User possesses API for foreign exchange rates website...............passed
+When : user enters an incorrect or incomplete API...........................passed
+Then : user will now see an invaild status of the response..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate date rates foreign exchange rates" time="0.997883">
+<system-out><![CDATA[Given : user will have the API for a specific date foreign exchange rates...passed
+When : user enters that API.................................................passed
+Then : user can able to see success status of response......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate the rates API for foreign exchange rates" time="0.920492">
+<system-out><![CDATA[Given : user has the API with a specific date foreign exchange rates........passed
+When : user enters the specific API.........................................passed
+Then : user can able to see valid response..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the Foreign Exchange rates functionality." name="To validate the rates API for foreign exchange rates by selecting a future date" time="0.819089">
+<system-out><![CDATA[Given : user has an API for foreign exchange rates..........................passed
+When : user enters API with some future date................................passed
+Then : user can able to see response........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

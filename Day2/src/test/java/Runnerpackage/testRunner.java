@@ -9,6 +9,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "src\\test\\resources\\ForeignExcRates.feature"
 		, glue={"Runnerpackage"} 
+		,plugin= {"html:src\\Reports\\Rep1.html",
+				"junit: src\\Reports\\Rep2.xml",
+				"json:src\\Reports\\Rep3.json"}
 		
 		 )
 
